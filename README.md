@@ -1,1 +1,1 @@
-# C
+We'll solve algorithmis 
