@@ -12,3 +12,12 @@ int main(){
     // conclude
     return 0;
 }
+/*
+I got to use float and knew the importance of New-line operator. 
+
+One Interesting issue was Integer type variable declaration which conflicted 
+with scanf trying to read floating type (%f) which caused error. 
+
+Also, Got to know that printf statements cannot have Address-of operator (&)
+Because printf function only reads the variable not address
+*/
