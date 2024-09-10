@@ -7,7 +7,7 @@ int fact(int num){
     // logic
     int count=1;
     while(num>0){
-        count = num*count;
+        count = num*count; // we're updating count here. 3x1=3, 3x2=6, 6x1=6 is the answer 
         num--;
     }
     return count;

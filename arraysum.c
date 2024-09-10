@@ -3,17 +3,17 @@
 #include<stdio.h>
 int main(){
     int arr[10];
-    //print("Enter the arrays");
-    
+    printf("Enter the numbers");
     for(int i=0;i<10;i++){
-        scanf("%d",&arr[i]);
+        scanf("%d", arr[i]);
+
     }
-    // Took elements and putted it down into the array
-    // Now we have to calculte the sum of all
-    int sum=0;
-    for (int i=0;i<10;i++){
+    // we have to compute the logic which is sum of all
+    // Now we have evey value in the array
+    int sum =0; // so that we can store the final result
+    for (i=0;i<10;i++){
         sum = sum + arr[i];
     }
-    printf("Sum of all values is: %d", sum);
+    printf("The total sum is %d", sum);
 
 }
